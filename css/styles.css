@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #D5E1EF;
+}
+
+.container-fluid{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 35rem;
+    max-width: 90%;
+    padding: 2rem;  
+    border-radius: 1.5rem;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.13);
+}
+
+.card__header img{
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.card__body{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.card__title{ 
+    font-weight: 700;
+    color: #202f50; 
+    margin-bottom: 2rem;
+}
+
+.card__text{
+    font-weight: lighter;
+    color: #B2B6BF; 
+}
